@@ -1,0 +1,63 @@
+columns_datetime:
+- tanggal
+columns_int:
+- pm10
+- pm25
+- so2
+- co
+- o3
+- no2
+- max
+columns_object:
+- stasiun
+- critical
+- category
+features:
+- stasiun
+- pm10
+- pm25
+- so2
+- co
+- o3
+- no2
+label: category
+label_categories:
+- BAIK
+- SEDANG
+- TIDAK SEHAT
+path_data_joined: ../data/interim/joined_dataset.pkl
+path_data_raw: ../data/raw/
+path_data_test:
+- ../data/interim/X_test.pkl
+- ../data/interim/y_test.pkl
+path_data_train:
+- ../data/interim/X_train.pkl
+- ../data/interim/y_train.pkl
+path_data_valid:
+- ../data/interim/X_valid.pkl
+- ../data/interim/y_valid.pkl
+path_data_validated: ../data/interim/validated_data.pkl
+range_co:
+- -1
+- 47
+range_no2:
+- -1
+- 65
+range_o3:
+- -1
+- 151
+range_pm10:
+- -1
+- 179
+range_pm25:
+- -1
+- 174
+range_so2:
+- -1
+- 82
+range_stasiun:
+- DKI1 (Bunderan HI)
+- DKI2 (Kelapa Gading)
+- DKI3 (Jagakarsa)
+- DKI4 (Lubang Buaya)
+- DKI5 (Kebon Jeruk) Jakarta Barat

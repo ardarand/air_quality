@@ -1,0 +1,51 @@
+columns_datetime:
+- tanggal
+columns_int:
+- pm10
+- pm25
+- so2
+- co
+- o3
+- no2
+- max
+columns_object:
+- stasiun
+- critical
+- category
+features:
+- stasiun
+- pm10
+- pm25
+- so2
+- co
+- o3
+- no2
+label: categori
+label_categories:
+- BAIK
+- SEDANG
+- TIDAK SEHAT
+range_co:
+- 0
+- 100
+range_no2:
+- 0
+- 100
+range_o3:
+- 0
+- 140
+range_pm10:
+- 0
+- 800
+range_pm25:
+- 0
+- 400
+range_so2:
+- 0
+- 500
+range_stasiun:
+- DKI1 (Bunderan HI)
+- DKI2 (Kelapa Gading)
+- DKI3 (Jagakarsa)
+- DKI4 (Lubang Buaya)
+- DKI5 (Kebon Jeruk) Jakarta Barat
