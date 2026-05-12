@@ -20,11 +20,33 @@ features:
 - co
 - o3
 - no2
+impute_co: 11.63883089770355
+impute_no2: 19.330076762037685
+impute_o3: 32.06298655343242
+impute_pm10:
+  BAIK: 28.426573426573427
+  TIDAK BAIK: 55.32202052091555
+impute_pm25:
+  BAIK: 39.35454545454545
+  TIDAK BAIK: 82.33438237608182
+impute_so2: 35.15479651162791
 label: category
 label_categories:
 - BAIK
 - SEDANG
 - TIDAK SEHAT
+label_categories_new:
+- BAIK
+- TIDAK BAIK
+path_clean_test:
+- ../data/processed/X_test_clean.pkl
+- ../data/processed/y_test_clean.pkl
+path_clean_train:
+- ../data/processed/X_train_clean.pkl
+- ../data/processed/y_train_clean.pkl
+path_clean_valid:
+- ../data/processed/X_valid_clean.pkl
+- ../data/processed/y_valid_clean.pkl
 path_data_joined: ../data/interim/joined_dataset.pkl
 path_data_raw: ../data/raw/
 path_data_test:
@@ -37,6 +59,10 @@ path_data_valid:
 - ../data/interim/X_valid.pkl
 - ../data/interim/y_valid.pkl
 path_data_validated: ../data/interim/validated_data.pkl
+path_encoder_label: ../models/label_encoder.pkl
+path_encoder_stasiun: ../models/ohe_stasiun.pkl
+path_ohe_stasiun: ../models/ohe_stasiun.pkl
+path_scaler: ../models/scaler.pkl
 range_co:
 - -1
 - 47
