@@ -1,4 +1,4 @@
 .venv_aq/
 **/.ipynb_checkpoints/
-data/interim/
-data/processed/
+data/
+src/

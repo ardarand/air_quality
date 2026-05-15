@@ -61,8 +61,9 @@ path_data_valid:
 path_data_validated: ../data/interim/validated_data.pkl
 path_encoder_label: ../models/label_encoder.pkl
 path_encoder_stasiun: ../models/ohe_stasiun.pkl
-path_ohe_stasiun: ../models/ohe_stasiun.pkl
+path_production_model: ../models/best_model.pkl
 path_scaler: ../models/scaler.pkl
+path_training_log: ../logs/training_log.json
 range_co:
 - -1
 - 47
