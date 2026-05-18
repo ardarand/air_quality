@@ -20,9 +20,9 @@ features:
 - co
 - o3
 - no2
-impute_co: 11.63883089770355
-impute_no2: 19.330076762037685
-impute_o3: 32.06298655343242
+impute_co: 11.0
+impute_no2: 18.0
+impute_o3: 29.0
 impute_pm10:
   BAIK: 28.426573426573427
   TIDAK BAIK: 55.32202052091555
