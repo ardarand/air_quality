@@ -39,31 +39,31 @@ label_categories_new:
 - BAIK
 - TIDAK BAIK
 path_clean_test:
-- ../data/processed/X_test_clean.pkl
-- ../data/processed/y_test_clean.pkl
+- ./data/processed/X_test_clean.pkl
+- ./data/processed/y_test_clean.pkl
 path_clean_train:
-- ../data/processed/X_train_clean.pkl
-- ../data/processed/y_train_clean.pkl
+- ./data/processed/X_train_clean.pkl
+- ./data/processed/y_train_clean.pkl
 path_clean_valid:
-- ../data/processed/X_valid_clean.pkl
-- ../data/processed/y_valid_clean.pkl
-path_data_joined: ../data/interim/joined_dataset.pkl
-path_data_raw: ../data/raw/
+- ./data/processed/X_valid_clean.pkl
+- ./data/processed/y_valid_clean.pkl
+path_data_joined: ./data/interim/joined_dataset.pkl
+path_data_raw: ./data/raw/
 path_data_test:
-- ../data/interim/X_test.pkl
-- ../data/interim/y_test.pkl
+- ./data/interim/X_test.pkl
+- ./data/interim/y_test.pkl
 path_data_train:
-- ../data/interim/X_train.pkl
-- ../data/interim/y_train.pkl
+- ./data/interim/X_train.pkl
+- ./data/interim/y_train.pkl
 path_data_valid:
-- ../data/interim/X_valid.pkl
-- ../data/interim/y_valid.pkl
-path_data_validated: ../data/interim/validated_data.pkl
-path_encoder_label: ../models/label_encoder.pkl
-path_encoder_stasiun: ../models/ohe_stasiun.pkl
-path_production_model: ../models/best_model.pkl
-path_scaler: ../models/scaler.pkl
-path_training_log: ../logs/training_log.json
+- ./data/interim/X_valid.pkl
+- ./data/interim/y_valid.pkl
+path_data_validated: ./data/interim/validated_data.pkl
+path_encoder_label: ./models/label_encoder.pkl
+path_encoder_stasiun: ./models/ohe_stasiun.pkl
+path_production_model: ./models/best_model.pkl
+path_scaler: ./models/scaler.pkl
+path_training_log: ./logs/training_log.json
 range_co:
 - -1
 - 47

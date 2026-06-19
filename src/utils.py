@@ -4,8 +4,10 @@ import joblib
 
 from datetime import datetime
 
+PATH_CONFIG = './config/config.yaml'
+
 # Function to load configuration parameter.
-def load_config(path_config):
+def load_config():
     """
     Load the configuration file.
 
@@ -19,13 +21,13 @@ def load_config(path_config):
     params : dict
         Loaded configuration file.
     """
-    
+
     # Try to Load config.yaml file.
     try:
-        with open(path_config, 'r') as file:
+        with open(PATH_CONFIG, 'r') as file:
             params = yaml.safe_load(file)
     except FileNotFoundError as err:
-        raise RuntimeError(f'Configuration file not found in {path_config}')
+        raise RuntimeError(f'Configuration file not found in {PATH_CONFIG}')
 
     return params
 

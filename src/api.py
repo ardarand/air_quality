@@ -15,7 +15,7 @@ PATH_CONFIG = "../config/config.yaml"
 
 
 # Load serialized estimators.
-config = utils.load_config(PATH_CONFIG)
+config = utils.load_config()
 ohe_stasiun = utils.deserialize_data(config["path_encoder_stasiun"])
 scaler = utils.deserialize_data(config["path_scaler"])
 le_encoder = utils.deserialize_data(config["path_encoder_label"])
