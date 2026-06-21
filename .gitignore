@@ -5,3 +5,4 @@ data/processed/
 **/__pycache__/
 config/config old.yaml
 notebooks/debug.ipynb
+docs/site/

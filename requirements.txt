@@ -11,3 +11,5 @@ imblearn
 fastapi[standard]
 uvicorn
 streamlit
+pytest
+mkdocs
